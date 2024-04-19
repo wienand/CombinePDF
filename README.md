@@ -23,14 +23,11 @@ options using command-line arguments.
 
 ```
 python combine.py --source-excel path/to/excel_file.xlsx \
-                  --column - input - files
-input_files
-- -column - output - file
-output_file
-    [--source - sheet
-sheet_name]
-    [--root - path - input / path / to / input / files]
-        [--root - path - output / path / to / output / files]
+                  --column-input-files input_column_header \
+                  --column-output-file output_column_header \
+                  [--source-sheet sheet_name \]
+                  [--root-path-input /path/to/input/files \]
+                  [--root-path-output /path/to/output/files \]
 ```
 
 ## Arguments
