@@ -90,7 +90,6 @@ def main(args):
     files_to_combine = read_excel(**args.__dict__)
     # Combine files
     combine_files(files_to_combine, **args.__dict__)
-    pass
 
 
 def parse_command_line():
